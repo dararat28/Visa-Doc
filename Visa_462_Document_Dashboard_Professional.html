@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Visa 462 Document Dashboard</title>
+<style>
+body{font-family:Segoe UI,Arial;background:#f4f6fb;margin:0;padding:30px;color:#222}
+.container{max-width:1400px;margin:auto;background:#fff;border-radius:16px;padding:30px;box-shadow:0 8px 24px rgba(0,0,0,.08)}
+h1{margin:0}
+.grid{display:grid;grid-template-columns:repeat(5,1fr);gap:15px;margin:25px 0}
+.card{padding:18px;border-radius:12px;color:#fff}
+.blue{background:#2563eb}.green{background:#16a34a}.yellow{background:#d97706}.red{background:#dc2626}.gray{background:#475569}
+.progress{background:#e5e7eb;border-radius:10px;height:18px;overflow:hidden;margin-top:10px}
+.progress div{height:100%;width:67%;background:#2563eb}
+table{width:100%;border-collapse:collapse}
+th,td{padding:12px;border:1px solid #ddd}
+th{background:#eef4ff}
+.badge{padding:5px 10px;border-radius:20px;font-size:12px;font-weight:bold}
+.ready{background:#dcfce7;color:#166534}
+.merge{background:#fef3c7;color:#92400e}
+.missing{background:#fee2e2;color:#991b1b}
+.optional{background:#dbeafe;color:#1d4ed8}
+</style>
+</head>
+<body>
+<div class="container">
+<h1>Australia Work and Holiday Visa (Subclass 462)</h1>
+<p>Professional Document Management Dashboard</p>
+
+<div class="grid">
+<div class="card blue"><h3>Total Upload Files</h3><h2>27</h2></div>
+<div class="card gray"><h3>Original Files</h3><h2>40</h2></div>
+<div class="card green"><h3>Ready</h3><h2>18</h2></div>
+<div class="card yellow"><h3>Merge Required</h3><h2>8</h2></div>
+<div class="card red"><h3>Missing</h3><h2>1</h2></div>
+</div>
+
+<b>Overall Progress (18 / 27)</b>
+<div class="progress"><div></div></div>
+
+<h2 style="margin-top:30px">Document Status</h2>
+
+<table>
+<thead>
+<tr>
+<th>Status</th>
+<th>Main Category</th>
+<th>Document</th>
+<th>Original File(s)</th>
+<th>Recommended Upload File</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="badge ready">READY</span></td>
+<td>Travel Document</td>
+<td>Passport</td>
+<td>Passport-Dararat Poungmalee.pdf</td>
+<td>01_Passport_Dararat_Poungmalee.pdf</td>
+</tr>
+<tr>
+<td><span class="badge merge">MERGE REQUIRED</span></td>
+<td>Travel Document</td>
+<td>Household Registration</td>
+<td>Thai + English Version</td>
+<td>03_Household_Registration_TH_EN.pdf</td>
+</tr>
+<tr>
+<td><span class="badge missing">MISSING</span></td>
+<td>Government Support</td>
+<td>Government Support Letter</td>
+<td>-</td>
+<td>01_Government_Support_Letter.pdf</td>
+</tr>
+<tr>
+<td><span class="badge optional">OPTIONAL</span></td>
+<td>Other Documents</td>
+<td>Driver License</td>
+<td>Driver License.pdf</td>
+<td>05_Driver_License.pdf</td>
+</tr>
+</tbody>
+</table>
+
+<p style="margin-top:30px;color:#666">
+This is a professional dashboard template. It is designed to be expanded with all of your document records, searchable filters, automatic counters, editable statuses, export to PDF, and dark mode.
+</p>
+
+</div>
+</body>
+</html>
